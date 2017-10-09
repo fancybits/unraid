@@ -35,7 +35,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8089]/web/index.html</WebUI>
+  <WebUI>http://[IP]:[PORT:8089]</WebUI>
   <Banner></Banner>
   <Icon>https://getchannels.com/assets/img/avatar-120.png</Icon>
 </Containers>
