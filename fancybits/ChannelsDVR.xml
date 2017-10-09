@@ -10,9 +10,7 @@
     Channels DVR
   </Overview>
   <Description>
-    The Channels DVR backend engine.[br][br]
-    [b][span style='color: #E80000;']Directions:[/span][/b][br]
-    [b]/data[/b] : This is where the DVR will store its databases and recordings.[br][br]
+    The Channels DVR backend engine.[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/fancybits/channels-dvr/</Registry>
   <GitHub>https://github.com/fancybits/unraid</GitHub>
@@ -27,8 +25,8 @@
   <Environment/>
   <Data>
     <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/data</ContainerDir>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/shares</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
