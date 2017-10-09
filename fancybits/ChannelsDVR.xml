@@ -10,7 +10,7 @@
     Channels DVR
   </Overview>
   <Description>
-    The Channels DVR backend engine.
+    The Channels DVR backend engine.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/data[/b] : This is where the DVR will store its databases and recordings.[br][br]
   </Description>
