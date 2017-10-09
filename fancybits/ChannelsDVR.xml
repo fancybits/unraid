@@ -27,12 +27,13 @@
   <Environment/>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/ChannelsDVR</HostDir>
-      <ContainerDir>/channels-dvr</ContainerDir>
+      <HostDir></HostDir>
+      <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <ContainerDir>/data</ContainerDir>
+      <HostDir>/mnt/user/appdata/ChannelsDVR</HostDir>
+      <ContainerDir>/channels-dvr</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
