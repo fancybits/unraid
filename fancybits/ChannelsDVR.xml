@@ -10,7 +10,12 @@
     Channels DVR
   </Overview>
   <Description>
-    The Channels DVR backend engine.[br]
+    The Channels DVR backend engine.[br][br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    Click the [b]Apply[/b] button at the bottom of the page.[br]
+    There is no need to change the host mappings from their default values.[br][br]
+    [b]/shares[/b] : This is where the DVR recordings are stored.[br]
+    [b]/channels-dvr[/b] : This is where the DVR application and configuration is stored.[br][br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/fancybits/channels-dvr/</Registry>
   <GitHub>https://github.com/fancybits/unraid</GitHub>
