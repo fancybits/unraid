@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2017-10-09</Date>
+  <Beta>False</Beta>
+  <Category>MediaServer:Video</Category>
+  <Name>Channels DVR</Name>
+  <Project>https://getchannels.com/dvr</Project>
+  <Changes></Changes>
+  <Overview>
+    Channels DVR
+  </Overview>
+  <Description>
+    The Channels DVR backend engine with TVE support.[br][br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    Click the [b]Apply[/b] button at the bottom of the page.[br]
+    There is no need to change the host mappings from their default values.[br][br]
+    [b]/shares[/b] : This is where the DVR recordings are stored.[br]
+    [b]/channels-dvr[/b] : This is where the DVR application and configuration is stored.[br][br]
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/fancybits/channels-dvr/</Registry>
+  <GitHub>https://github.com/fancybits/unraid</GitHub>
+  <Repository>fancybits/channels-dvr:tve</Repository>
+  <Support>https://community.getchannels.com</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/shares</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/ChannelsDVR</HostDir>
+      <ContainerDir>/channels-dvr</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8089]</WebUI>
+  <Banner></Banner>
+  <Icon>https://getchannels.com/assets/img/avatar-120.png</Icon>
+</Containers>
