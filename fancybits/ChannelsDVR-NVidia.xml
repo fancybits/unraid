@@ -24,6 +24,16 @@
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <ExtraParams>--runtime=nvidia</ExtraParams>
+  <Variable>
+    <Value>compute,utility,video</Value>
+    <Name>NVIDIA_DRIVER_CAPABILITIES</Name>
+    <Mode/>
+  </Variable>
+  <Variable>
+    <Value>all</Value>
+    <Name>NVIDIA_VISIBLE_DEVICES</Name>
+    <Mode/>
+  </Variable>
   <Networking>
     <Mode>host</Mode>
     <Publish/>
