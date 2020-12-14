@@ -23,6 +23,7 @@
   <Support>https://community.getchannels.com</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
+  <ExtraParams>--runtime=nvidia</ExtraParams>
   <Networking>
     <Mode>host</Mode>
     <Publish/>
